@@ -1,0 +1,17 @@
+body{
+    background-image: url('/images/space.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+.heading{
+  text-align: center;
+  font-size: 30px;
+  color: white;
+}
+.animation{
+   width: 100%;
+   border-radius:1px solid white;
+}
+

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/test.css">
+    <link rel="stylesheet" href="carousel.scss">
+    <link rel="stylesheet" href="carousel.js">
+    <link rel="stylesheet" href="button.scss">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    
+    <title>Nasa</title>
+    <style>
+        
+    </style>
+</head>
+<body>
+    
+        <nav>
+            <div class="multi-button">
+                <div class="row">
+                    <div class="col-md-3">
+                        <button>Satellites</button>
+                    </div>
+                    <div class="col-md-3">
+                        <button>Rockets</button>
+                    </div>
+                    <div class="col-md-3">
+                        <button>ISS</button>
+                    </div>
+                    <div class="col-md-3">
+                        <button>Telescopes</button>
+                    </div>
+                </div>
+              </div>
+            </nav>
+
+            <div class="container">
+              <input type="radio" name="slider" id="item-1" checked>
+              <input type="radio" name="slider" id="item-2">
+              <input type="radio" name="slider" id="item-3">
+              <div class="cards">
+              <label class="card" for="item-1" id="song-1">
+               <a href="template/stteliteinfo.html"><img src="https://images.unsplash.com/photo-1530651788726-1dbf58eeef1f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=882&q=80" alt="song"></a> 
+              </label>
+              <label class="card" for="item-2" id="song-2">
+                <img src="https://images.unsplash.com/photo-1559386484-97dfc0e15539?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1234&q=80" alt="song">
+              </label>
+              <label class="card" for="item-3" id="song-3">
+                <img src="https://images.unsplash.com/photo-1533461502717-83546f485d24?ixlib=rb-1.2.1&auto=format&fit=crop&w=900&q=60" alt="song">
+              </label>
+              <label class="card" for="item-3" id="song-3">
+                <img src="https://images.unsplash.com/photo-1533461502717-83546f485d24?ixlib=rb-1.2.1&auto=format&fit=crop&w=900&q=60" alt="song">
+                </label>
+                <label class="card" for="item-3" id="song-3">
+                <img src="https://images.unsplash.com/photo-1533461502717-83546f485d24?ixlib=rb-1.2.1&auto=format&fit=crop&w=900&q=60" alt="song">
+                </label>
+              </div>
+              
+            </div>
+            <script>
+            $('input').on('change', function() {
+              $('body').toggleClass('blue');
+              });
+              </script>
+          
+
+
+    <!-- <div id="aSide">
+        <model-viewer src="satelite.glb" alt="VR Headset" auto-rotate camera-controls ar">
+
+        </model-viewer>
+
+    </div> -->
+    
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+<script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script>
+</body>
+</html>
